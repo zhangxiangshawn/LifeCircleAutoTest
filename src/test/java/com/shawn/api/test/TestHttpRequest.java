@@ -54,21 +54,21 @@ public class TestHttpRequest {
 		Assert.assertEquals(200, code);
 	}
 
-	@Test
-	public void test3() throws IOException {
-		String url = "http://www.httpbin.org/get";
-		HttpResponse response = new HttpRequest(url).doGet();
-
-		Map<String, Object> exceptMap = new HashMap<String,Object>();
-
-		exceptMap.put("base", "CNY");
-		exceptMap.put("date","2018-01-12");
-		exceptMap.put("rates.USD", new BigDecimal(0.15478).setScale(5, RoundingMode.HALF_UP));
-		exceptMap.put("rates.JPY", new BigDecimal(17.2).setScale(1, RoundingMode.HALF_UP));
-
-		ResponseChecker responseChecker = new ResponseChecker(response);
-		responseChecker.codeCheck(200);
-		responseChecker.dataCheck(exceptMap);
-	}
+//	@Test
+//	public void test3() throws IOException {
+//		String url = "http://www.httpbin.org/get";
+//		HttpResponse response = new HttpRequest(url).doGet();
+//
+//		Map<String, Object> exceptMap = new HashMap<String,Object>();
+//
+//		exceptMap.put("base", "CNY");
+//		exceptMap.put("date","2018-01-12");
+//		exceptMap.put("rates.USD", new BigDecimal(0.15478).setScale(5, RoundingMode.HALF_UP));
+//		exceptMap.put("rates.JPY", new BigDecimal(17.2).setScale(1, RoundingMode.HALF_UP));
+//
+//		ResponseChecker responseChecker = new ResponseChecker(response);
+//		responseChecker.codeCheck(200);
+//		responseChecker.dataCheck(exceptMap);
+//	}
 
 }
