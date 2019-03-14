@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="com.shawn.api.test.TestHttpRequest" duration-ms="1576" started-at="2019-03-08T08:54:55Z" finished-at="2019-03-08T08:54:56Z">
+  <suite name="com.shawn.api.test.TestHttpRequest" duration-ms="1572" started-at="2019-03-08T09:20:23Z" finished-at="2019-03-08T09:20:24Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="1576" started-at="2019-03-08T08:54:55Z" finished-at="2019-03-08T08:54:56Z">
+    <test name="Command line test" duration-ms="1572" started-at="2019-03-08T09:20:23Z" finished-at="2019-03-08T09:20:24Z">
       <class name="com.shawn.api.test.TestHttpRequest">
-        <test-method status="PASS" signature="testGet()[pri:0, instance:com.shawn.api.test.TestHttpRequest@3796751b]" name="testGet" duration-ms="973" started-at="2019-03-08T08:54:55Z" finished-at="2019-03-08T08:54:56Z">
+        <test-method status="PASS" signature="testGet()[pri:0, instance:com.shawn.api.test.TestHttpRequest@3796751b]" name="testGet" duration-ms="988" started-at="2019-03-08T09:20:23Z" finished-at="2019-03-08T09:20:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGet -->
-        <test-method status="PASS" signature="testPost()[pri:0, instance:com.shawn.api.test.TestHttpRequest@3796751b]" name="testPost" duration-ms="578" started-at="2019-03-08T08:54:56Z" finished-at="2019-03-08T08:54:56Z">
+        <test-method status="PASS" signature="testPost()[pri:0, instance:com.shawn.api.test.TestHttpRequest@3796751b]" name="testPost" duration-ms="560" started-at="2019-03-08T09:20:24Z" finished-at="2019-03-08T09:20:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPost -->

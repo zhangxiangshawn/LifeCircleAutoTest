@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<suite name="我自己的接口测试套件">
-    <test name="这是测试模块">
+<suite name="新潮生活圈直投RESTful API">
+    <test name="新潮生活圈直投RESTful API test">
         <classes>
-            <!--<class name="com.test.extentreport.TestMethodsDemo">-->
-                <!--<methods>-->
-                    <!--<include name="test1"/>-->
-                    <!--<include name="test2"/>-->
-                    <!--<include name="test3"/>-->
-                    <!--<include name="logDemo"/>-->
-                <!--</methods>-->
 
-        <!--</class>-->
-
-            <class name="com.shawn.api.test.TestHttpRequest">
+            <class name="com.shawn.api.test.industryTestSuite.TestIndustry">
                 <methods>
-                    <include name="testGet"/>
-                    <include name="testPost"/>
-                    <!--<include name="test3"/>-->
+                    <include name="testGetIndustryLevelOne"/>
+                    <include name="testGetIndustryLevelTwo"/>
+                    <include name="testGetIndustryLevelList"/>
+                    <include name="testGetIndustryLevelSHQList"/>
+                    <include name="testGetIndustryParent"/>
                 </methods>
-
             </class>
+
+            <class name="com.shawn.api.test.lifeCoin.TestLifeCoin">
+                <methods>
+                    <include name="testGetCoinBalance"/>
+                    <include name="testGetCoinBonus"/>
+                    <include name="testPostCoinConsume"/>
+                    <include name="testPostCoinExpense"/>
+                    <include name="testPostCoinRefund"/>
+                </methods>
+            </class>
+
         </classes>
     </test>
 

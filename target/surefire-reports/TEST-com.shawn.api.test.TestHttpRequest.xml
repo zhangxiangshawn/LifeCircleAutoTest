@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="com.shawn.api.test.TestHttpRequest" time="1.554" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="com.shawn.api.test.TestHttpRequest" time="1.55" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="D:\Java\jdk1.8.0_171\jre\bin"/>
@@ -29,7 +29,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\Users\shawn\Downloads\apache-maven-3.6.0\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.library.path" value="D:\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\jdk1.8.0_171\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;d:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Program Files\Mozilla Firefox;D:\Anaconda3\Scripts;D:\Anaconda3;D:\MongoDB\Server\4.0\bin;D:\Redis\;C:\Users\shawn\Downloads\chromedriver.exe;C:\Users\shawn\Downloads\apache-maven-3.6.0\bin;D:\Program Files\nodejs;C:\Users\shawn\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\shawn\AppData\Local\Programs\Python\Python37\;D:\Python37\Scripts\;D:\Python37\;C:\Users\shawn\AppData\Local\Microsoft\WindowsApps;C:\Users\shawn\AppData\Local\GitHubDesktop\bin;C:\Users\shawn\AppData\Roaming\npm;D:\IntelliJ IDEA Community Edition 2018.3.2\bin;;."/>
+    <property name="java.library.path" value="D:\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Java\jdk1.8.0_171\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;d:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Program Files\Mozilla Firefox;D:\Anaconda3\Scripts;D:\Anaconda3;D:\MongoDB\Server\4.0\bin;D:\Redis\;C:\Users\shawn\Downloads\chromedriver.exe;C:\Users\shawn\Downloads\apache-maven-3.6.0\bin;D:\Program Files\nodejs;C:\Users\shawn\Downloads\apache-maven-3.6.0\bin;C:\Users\shawn\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\shawn\AppData\Local\Programs\Python\Python37\;D:\Python37\Scripts\;D:\Python37\;C:\Users\shawn\AppData\Local\Microsoft\WindowsApps;C:\Users\shawn\AppData\Local\GitHubDesktop\bin;C:\Users\shawn\AppData\Roaming\npm;D:\IntelliJ IDEA Community Edition 2018.3.2\bin;;."/>
     <property name="maven.conf" value="C:\Users\shawn\Downloads\apache-maven-3.6.0\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -46,7 +46,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="D:\Java\jdk1.8.0_171\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install -U"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="zh"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -65,6 +65,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.shawn.api.test.TestHttpRequest" name="testGet" time="0.974"/>
-  <testcase classname="com.shawn.api.test.TestHttpRequest" name="testPost" time="0.58"/>
+  <testcase classname="com.shawn.api.test.TestHttpRequest" name="testGet" time="0.989"/>
+  <testcase classname="com.shawn.api.test.TestHttpRequest" name="testPost" time="0.561"/>
 </testsuite>
