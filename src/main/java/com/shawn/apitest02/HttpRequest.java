@@ -25,7 +25,6 @@ import java.util.Map;
 public class HttpRequest {
 
     private String url;
-
     private Map<String,Object> headers;
     private Map<String,Object> params;
     private String content;

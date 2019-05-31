@@ -10,11 +10,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class TestPremise {
-    private String baseUrl = "https://test-api-life.xinchao.mobi/life";
+    private String baseUrl = "life-circle-t.xinchao.com/life";
 
     @Test
     public void testGetPremiseList() throws IOException {
-        String url = baseUrl + "/premise/list";
+        String url = "https://life-circle-t.xinchao.com/life/premise/12";
         Map<String, Object> header = new HashMap<String, Object>();
         header.put("Content-Type","application/json");
         HttpResponse response = new HttpRequest(url)

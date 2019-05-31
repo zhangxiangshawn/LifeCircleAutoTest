@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class TestIndustry {
-    private String baseUrl = "http://localhost:9309/life/industry";
+    private String baseUrl = "https://life-circle-prd.xinchao.com/life/industry";
     @Test
     public void testGetIndustryLevelOne() throws IOException {
         String url = baseUrl + "/level/1";
@@ -71,8 +71,8 @@ public class TestIndustry {
         Map<String, Object> exceptMap = new HashMap<String,Object>();
 
         exceptMap.put("status.message", "成功");
-        exceptMap.put("data[0].industryId","H01701");
-        exceptMap.put("data[0].name", "医美整形");
+        //exceptMap.put("data[0].industryId","H01701");
+        exceptMap.put("data[0].name", "餐饮行业");
 
         ResponseChecker responseChecker = new ResponseChecker(response);
         responseChecker.codeCheck(200);
@@ -81,7 +81,7 @@ public class TestIndustry {
 
     @Test
     public void testGetIndustryLevelParent() throws IOException {
-        String url = baseUrl + "/industry/parent/H00001";
+        String url = baseUrl + "/parent/H00001";
         HttpResponse response = new HttpRequest(url).doGet();
 
         Map<String, Object> exceptMap = new HashMap<String,Object>();

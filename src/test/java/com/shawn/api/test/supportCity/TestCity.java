@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class TestCity {
-    private String baseUrl = "https://test-api-life.xinchao.mobi/life";
+    private String baseUrl = "life-circle-t.xinchao.com/life";
     @Test
     public void testGetCityList() throws IOException {
         String url = baseUrl + "/city/list";

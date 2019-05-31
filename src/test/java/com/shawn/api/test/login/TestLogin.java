@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class TestLogin {
-    private String baseUrl = "https://test-api-life.xinchao.mobi/life";
+    private String baseUrl = "https://life-circle-prd.xinchao.com/life";
     @Test
     public void testGetSMSCode() throws IOException {
         String url = baseUrl + "/SMSCode/get";

@@ -10,12 +10,13 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class TestLifeCoin {
-    private String baseUrl = "http://localhost:9309/life";
+    private String baseUrl = "https://life-circle-prd.xinchao.com/life";
     @Test
     public void testGetCoinBalance() throws IOException {
         String url = baseUrl + "/coin/balance";
-        HttpResponse response = new HttpRequest(url).doGet();
-
+        Map headers = new HashMap();
+        headers.put("token", "eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE1NjI4ODgyNTksInVzZXJuYW1lIjoiY2YwZjFlMzktNmY0Mi00MjdmLThmMjctOTMzNTA4ODE0NjllIn0.pChxLISAIsIdvs46G4fvbhi21T-7AczqamtNP9noAYKvDE6zKk36A9W4GXsq2zTltpoXe1bRwfDERuH7O7ksBg");
+        HttpResponse response = new HttpRequest(url).setHeaders(headers).doGet();
         Map<String, Object> exceptMap = new HashMap<String,Object>();
 
         exceptMap.put("status.message", "成功");
