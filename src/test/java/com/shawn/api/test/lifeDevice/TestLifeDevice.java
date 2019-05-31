@@ -10,10 +10,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class TestLifeDevice {
-    private String baseUrl = "http://localhost:9309/life";
+    private String baseUrl = "https://life-circle-prd.xinchao.com/life";
     @Test
     public void testGetLifeDevice() throws IOException {
-        String url = baseUrl + "/device/price";
+        String url = baseUrl + "/device/price?cityCode=1";
         HttpResponse response = new HttpRequest(url).doGet();
 
         Map<String, Object> exceptMap = new HashMap<String,Object>();

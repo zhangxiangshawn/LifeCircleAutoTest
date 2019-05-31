@@ -11,12 +11,19 @@ import java.util.Map;
 
 public class TestLifeCoin {
     private String baseUrl = "https://life-circle-prd.xinchao.com/life";
+    private Map<String, Object> header;
+
+    public static Map<String, Object> setToken(){
+        Map header = new HashMap();
+        header.put("token", "eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE1NjI4OTQ3NDQsInVzZXJuYW1lIjoiMjg2YjUzNjItZmQ0MC00YWI0LTg2NGYtNGJjZDk2ODNiN2Y5In0.J6EAVet0u2Ok9n3NRUikA7mjvCCjQ1dwb7kRUJBdosPQV_oO_YFggIuWUHeiVd6vAWecaHw0ISjHCaC7QjRfNQ");
+        return header;
+    }
+
     @Test
     public void testGetCoinBalance() throws IOException {
         String url = baseUrl + "/coin/balance";
-        Map headers = new HashMap();
-        headers.put("token", "eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE1NjI4ODgyNTksInVzZXJuYW1lIjoiY2YwZjFlMzktNmY0Mi00MjdmLThmMjctOTMzNTA4ODE0NjllIn0.pChxLISAIsIdvs46G4fvbhi21T-7AczqamtNP9noAYKvDE6zKk36A9W4GXsq2zTltpoXe1bRwfDERuH7O7ksBg");
-        HttpResponse response = new HttpRequest(url).setHeaders(headers).doGet();
+        Map<String, Object> header = setToken();
+        HttpResponse response = new HttpRequest(url).setHeaders(header).doGet();
         Map<String, Object> exceptMap = new HashMap<String,Object>();
 
         exceptMap.put("status.message", "成功");
@@ -29,7 +36,8 @@ public class TestLifeCoin {
     @Test
     public void testGetCoinBonus() throws IOException {
         String url = baseUrl + "/coin/bonus";
-        HttpResponse response = new HttpRequest(url).doGet();
+        Map<String, Object> header = setToken();
+        HttpResponse response = new HttpRequest(url).setHeaders(header).doGet();
 
         Map<String, Object> exceptMap = new HashMap<String,Object>();
 
@@ -49,10 +57,11 @@ public class TestLifeCoin {
         //header
         Map<String, Object> header = new HashMap<String, Object>();
         header.put("Content-Type","application/json");
+        header.put("token", "eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE1NjI4OTQ3NDQsInVzZXJuYW1lIjoiMjg2YjUzNjItZmQ0MC00YWI0LTg2NGYtNGJjZDk2ODNiN2Y5In0.J6EAVet0u2Ok9n3NRUikA7mjvCCjQ1dwb7kRUJBdosPQV_oO_YFggIuWUHeiVd6vAWecaHw0ISjHCaC7QjRfNQ");
 
         HttpResponse response = new HttpRequest(url)
                 .setHeaders(header)
-                .setContent("{\"amount\":\"0\", \"orderNumber\":\"201903120001\", \"payImmediate\":\"0\"}")
+                .setContent("{\"amount\":\"0\", \"orderNumber\":\"ZT2019053100000001\", \"payImmediate\":\"0\"}")
                 .doPost();
 
         Map<String, Object> exceptMap = new HashMap<String,Object>();
@@ -71,6 +80,7 @@ public class TestLifeCoin {
         //header
         Map<String, Object> header = new HashMap<String, Object>();
         header.put("Content-Type","application/json");
+        header.put("token", "eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE1NjI4OTQ3NDQsInVzZXJuYW1lIjoiMjg2YjUzNjItZmQ0MC00YWI0LTg2NGYtNGJjZDk2ODNiN2Y5In0.J6EAVet0u2Ok9n3NRUikA7mjvCCjQ1dwb7kRUJBdosPQV_oO_YFggIuWUHeiVd6vAWecaHw0ISjHCaC7QjRfNQ");
 
         HttpResponse response = new HttpRequest(url)
                 .setHeaders(header)
@@ -93,6 +103,7 @@ public class TestLifeCoin {
         //header
         Map<String, Object> header = new HashMap<String, Object>();
         header.put("Content-Type","application/json");
+        header.put("token", "eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE1NjI4OTQ3NDQsInVzZXJuYW1lIjoiMjg2YjUzNjItZmQ0MC00YWI0LTg2NGYtNGJjZDk2ODNiN2Y5In0.J6EAVet0u2Ok9n3NRUikA7mjvCCjQ1dwb7kRUJBdosPQV_oO_YFggIuWUHeiVd6vAWecaHw0ISjHCaC7QjRfNQ");
 
         HttpResponse response = new HttpRequest(url)
                 .setHeaders(header)
@@ -115,6 +126,7 @@ public class TestLifeCoin {
         //header
         Map<String, Object> header = new HashMap<String, Object>();
         header.put("Content-Type","application/json");
+        header.put("token", "eyJhbGciOiJIUzUxMiJ9.eyJleHAiOjE1NjI4OTQ3NDQsInVzZXJuYW1lIjoiMjg2YjUzNjItZmQ0MC00YWI0LTg2NGYtNGJjZDk2ODNiN2Y5In0.J6EAVet0u2Ok9n3NRUikA7mjvCCjQ1dwb7kRUJBdosPQV_oO_YFggIuWUHeiVd6vAWecaHw0ISjHCaC7QjRfNQ");
 
         HttpResponse response = new HttpRequest(url)
                 .setHeaders(header)
