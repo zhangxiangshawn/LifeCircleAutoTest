@@ -1,11 +1,13 @@
-package com.shawn.apitest02;
+package com.shawn.api;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
+import org.apache.http.client.methods.HttpDelete;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
+import org.apache.http.client.methods.HttpPut;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.message.BasicNameValuePair;
@@ -114,6 +116,75 @@ public class HttpRequest {
                 request.setEntity(new StringEntity(content));
             }
 
+            HttpResponse response = client.execute(request);
+            return response;
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return  null;
+    }
+
+    public HttpResponse doPut(){
+        try {
+            HttpClient client = new DefaultHttpClient();
+            //发送get请求
+            HttpPut request = new HttpPut(url);
+
+            //设置url
+            request.setURI(new URI(url));
+
+            if(headers != null && headers.size() > 0){
+                for(Map.Entry<String,Object> header : headers.entrySet()) {
+                    request.setHeader(header.getKey(), String.valueOf(header.getValue()));
+                }
+            }
+
+            List<NameValuePair> nvps = new ArrayList<NameValuePair>();
+
+            //设置参数
+            if(params != null && params.size() > 0){
+                for (Iterator iter = params.keySet().iterator(); iter.hasNext(); ) {
+                    String name = (String) iter.next();
+                    String value = String.valueOf(params.get(name));
+                    nvps.add(new BasicNameValuePair(name, value));
+                }
+                request.setEntity(new UrlEncodedFormEntity(nvps, HTTP.UTF_8));
+            }
+            //设置body内容
+            if(content != null){
+                request.setEntity(new StringEntity(content));
+            }
+
+            HttpResponse response = client.execute(request);
+            return response;
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return  null;
+    }
+
+    public HttpResponse doDelete(){
+        try {
+            HttpClient client = new DefaultHttpClient();
+            //发送get请求
+            HttpDelete request = new HttpDelete(url);
+            if(headers != null && headers.size() > 0){
+                for(Map.Entry<String,Object> header : headers.entrySet()) {
+                    request.setHeader(header.getKey(), String.valueOf(header.getValue()));
+                }
+            }
+
+            if(params != null && params.size() > 0){
+                StringBuilder sb = new StringBuilder();
+                if(! url.contains("?")){
+                    sb.append("?");
+                }
+                for(Map.Entry<String,Object> param : params.entrySet()) {
+                    sb.append(param.getKey() + "=" + param.getValue() + "&");
+                }
+                sb.deleteCharAt(sb.lastIndexOf("&"));
+                url = url + sb.toString();
+            }
             HttpResponse response = client.execute(request);
             return response;
         }catch (Exception e){

@@ -1,7 +1,8 @@
 package com.shawn.api.test.industryTestSuite;
 
 import com.shawn.api.validation.ResponseChecker;
-import com.shawn.apitest02.HttpRequest;
+import com.shawn.api.HttpRequest;
+import com.shawn.utils.GetTokenFromYml;
 import org.apache.http.HttpResponse;
 import org.testng.annotations.Test;
 
@@ -10,12 +11,23 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class TestIndustry {
-    private String baseUrl = "https://life-circle-prd.xinchao.com/life/industry";
+    private String baseUrl = "https://life-circle-t.xinchao.com/life";
+    private Map<String, Object> header;
+    private static String token = GetTokenFromYml.getToken();
+
+    public static Map<String, Object> setToken(){
+        Map header = new HashMap();
+        header.put("token", token);
+        header.put("Content-Type","application/json");
+        return header;
+    }
+
     @Test
     public void testGetIndustryLevelOne() throws IOException {
-        String url = baseUrl + "/level/1";
-        System.out.println(url);
-        HttpResponse response = new HttpRequest(url).doGet();
+        String url = baseUrl + "/industry/level/1";
+
+        Map<String, Object> header = setToken();
+        HttpResponse response = new HttpRequest(url).setHeaders(header).doGet();
 
         Map<String, Object> exceptMap = new HashMap<String,Object>();
 
@@ -31,8 +43,9 @@ public class TestIndustry {
 
     @Test
     public void testGetIndustryLevelTwo() throws IOException {
-        String url = baseUrl + "/level/2";
-        HttpResponse response = new HttpRequest(url).doGet();
+        String url = baseUrl + "/industry/level/2";
+        Map<String, Object> header = setToken();
+        HttpResponse response = new HttpRequest(url).setHeaders(header).doGet();
 
         Map<String, Object> exceptMap = new HashMap<String,Object>();
 
@@ -49,8 +62,9 @@ public class TestIndustry {
 
     @Test
     public void testGetIndustryLevelList() throws IOException {
-        String url = baseUrl + "/level/list";
-        HttpResponse response = new HttpRequest(url).doGet();
+        String url = baseUrl + "/industry/level/list";
+        Map<String, Object> header = setToken();
+        HttpResponse response = new HttpRequest(url).setHeaders(header).doGet();
 
         Map<String, Object> exceptMap = new HashMap<String,Object>();
 
@@ -65,8 +79,9 @@ public class TestIndustry {
 
     @Test
     public void testGetIndustryLevelSHQList() throws IOException {
-        String url = baseUrl + "/level/shqlist";
-        HttpResponse response = new HttpRequest(url).doGet();
+        String url = baseUrl + "/industry/level/shqlist";
+        Map<String, Object> header = setToken();
+        HttpResponse response = new HttpRequest(url).setHeaders(header).doGet();
 
         Map<String, Object> exceptMap = new HashMap<String,Object>();
 
@@ -81,8 +96,9 @@ public class TestIndustry {
 
     @Test
     public void testGetIndustryLevelParent() throws IOException {
-        String url = baseUrl + "/parent/H00001";
-        HttpResponse response = new HttpRequest(url).doGet();
+        String url = baseUrl + "/industry/parent/H00001";
+        Map<String, Object> header = setToken();
+        HttpResponse response = new HttpRequest(url).setHeaders(header).doGet();
 
         Map<String, Object> exceptMap = new HashMap<String,Object>();
 

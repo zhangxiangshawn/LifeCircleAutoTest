@@ -1,7 +1,7 @@
 package com.shawn.api.test.premise;
 
 import com.shawn.api.validation.ResponseChecker;
-import com.shawn.apitest02.HttpRequest;
+import com.shawn.api.HttpRequest;
 import org.apache.http.HttpResponse;
 import org.testng.annotations.Test;
 
