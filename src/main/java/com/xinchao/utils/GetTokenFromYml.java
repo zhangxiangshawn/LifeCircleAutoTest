@@ -1,4 +1,4 @@
-package com.shawn.utils;
+package com.xinchao.utils;
 
 import com.aventstack.extentreports.model.Test;
 import org.yaml.snakeyaml.Yaml;

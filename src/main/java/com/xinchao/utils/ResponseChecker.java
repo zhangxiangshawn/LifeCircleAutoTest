@@ -1,4 +1,4 @@
-package com.shawn.api.validation;
+package com.xinchao.utils;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
@@ -60,7 +60,7 @@ public class ResponseChecker {
     }
 
     /**
-     * @author shawn
+     * @author xinchao
      * @param json 待解析的json
      * @param parent 父key
      * @return 返回一个map，key按json的路径层次存储

@@ -1,7 +1,7 @@
-package com.shawn.api.test.supportCity;
+package com.xinchao.cases.supportCity;
 
-import com.shawn.api.validation.ResponseChecker;
-import com.shawn.api.HttpRequest;
+import com.xinchao.core.validation.ResponseChecker;
+import com.xinchao.core.HttpRequest;
 import org.apache.http.HttpResponse;
 import org.testng.annotations.Test;
 

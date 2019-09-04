@@ -1,8 +1,8 @@
-package com.shawn.api.test.lifeDevice;
+package com.xinchao.cases.lifeDevice;
 
-import com.shawn.api.validation.ResponseChecker;
-import com.shawn.api.HttpRequest;
-import com.shawn.utils.GetTokenFromYml;
+import com.xinchao.core.validation.ResponseChecker;
+import com.xinchao.core.HttpRequest;
+import com.xinchao.utils.GetTokenFromYml;
 import org.apache.http.HttpResponse;
 import org.testng.annotations.Test;
 

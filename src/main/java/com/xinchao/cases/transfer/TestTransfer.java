@@ -1,8 +1,8 @@
-package com.shawn.api.test.transfer;
+package com.xinchao.cases.transfer;
 
-import com.shawn.api.HttpRequest;
-import com.shawn.api.validation.ResponseChecker;
-import com.shawn.utils.GetTokenFromYml;
+import com.xinchao.core.HttpRequest;
+import com.xinchao.core.validation.ResponseChecker;
+import com.xinchao.utils.GetTokenFromYml;
 import org.apache.http.HttpResponse;
 import org.testng.annotations.Test;
 

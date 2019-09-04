@@ -1,4 +1,4 @@
-package com.shawn.api.extentreport;
+package com.xinchao.utils;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;

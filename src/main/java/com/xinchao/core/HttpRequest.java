@@ -1,4 +1,4 @@
-package com.shawn.api;
+package com.xinchao.core;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
@@ -20,7 +20,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by shawn on 2019/2/26.
+ * Created by xinchao on 2019/2/26.
  * Desc: 接口自动化测试http框架封装
  * 
  */

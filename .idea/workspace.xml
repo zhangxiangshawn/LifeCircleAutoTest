@@ -2,11 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43bd3ce7-2ec2-4277-8ebe-9dd5d17526df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/shawn/api/test/coupon/TestCoupon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/shawn/api/test/transfer/TestTransfer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LifeCircle.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LifeCircle.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shawn/api/HttpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinchao/core/HttpRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shawn/utils/GetTokenFromYml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinchao/utils/GetTokenFromYml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/shawn/api/extentreport/ExtentTestNGIReporterListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinchao/utils/ExtentTestNGIReporterListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/shawn/api/test/coupon/TestCoupon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinchao/cases/coupon/TestCoupon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/shawn/api/test/industryTestSuite/TestIndustry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinchao/cases/industryTestSuite/TestIndustry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/shawn/api/test/lifeCoin/TestLifeCoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinchao/cases/lifeCoin/TestLifeCoin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/shawn/api/test/lifeDevice/TestLifeDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinchao/cases/lifeDevice/TestLifeDevice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/shawn/api/test/login/TestLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinchao/cases/login/TestLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/shawn/api/test/media/TestMedia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinchao/cases/media/TestMedia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/shawn/api/test/premise/TestPremise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinchao/cases/premise/TestPremise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/shawn/api/test/supportCity/TestCity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinchao/cases/supportCity/TestCity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/shawn/api/test/transfer/TestTransfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinchao/cases/transfer/TestTransfer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/shawn/api/validation/ResponseChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinchao/utils/ResponseChecker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,16 +30,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/shawn/api/validation/ResponseChecker.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xinchao/utils/ResponseChecker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+            <state relative-caret-position="465">
+              <caret line="106" column="24" lean-forward="true" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#603#604#0" expanded="true" />
                 <element signature="e#643#644#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1947">
+              <caret line="113" selection-start-line="113" selection-end-line="113" />
             </state>
           </provider>
         </entry>
@@ -50,19 +71,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
-              <caret line="11" column="65" lean-forward="true" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/shawn/api/test/lifeDevice/TestLifeDevice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -76,46 +85,45 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/shawn/api/extentreport/ExtentTestNGIReporterListener.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="184" column="24" selection-start-line="184" selection-start-column="24" selection-end-line="184" selection-end-column="24" />
+            <state relative-caret-position="480">
+              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/shawn/api/test/lifeCoin/TestLifeCoin.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xinchao/utils/ExtentTestNGIReporterListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1625">
-              <caret line="73" column="5" selection-start-line="55" selection-start-column="4" selection-end-line="73" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="100">
+              <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/shawn/api/test/login/TestLogin.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xinchao/utils/GetTokenFromYml.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="875">
-              <caret line="43" column="53" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shawn/utils/GetTokenFromYml.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
+            <state relative-caret-position="364">
               <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xinchao/core/HttpRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1667">
+              <caret line="98" column="90" selection-start-line="98" selection-start-column="90" selection-end-line="98" selection-end-column="90" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#979#980#0" expanded="true" />
+                <element signature="e#1008#1009#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -170,6 +178,9 @@
         <option value="$PROJECT_DIR$/src/test/java/com/shawn/api/test/coupon/GetTotalCoupon.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/shawn/api/test/coupon/TestCoupon.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/shawn/api/test/transfer/TestTransfer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xinchao/api/HttpRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xinchao/core/HttpRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xinchao/utils/ExtentTestNGIReporterListener.java" />
       </list>
     </option>
   </component>
@@ -241,17 +252,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="shawn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LifeCircleApiTestFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LifeCircleApiTestFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="shawn" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="xinchao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LifeCircleApiTestFramework" type="b2602c69:ProjectViewProjectNode" />
@@ -259,46 +260,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LifeCircleApiTestFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LifeCircleApiTestFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LifeCircleApiTestFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LifeCircleApiTestFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LifeCircleApiTestFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LifeCircleApiTestFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LifeCircleApiTestFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LifeCircleApiTestFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="shawn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LifeCircleApiTestFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LifeCircleApiTestFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="shawn" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -310,7 +271,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567558352193" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567559415922" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -354,12 +315,12 @@
       <module name="LifeCircle" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shawn.api.test.coupon.*" />
+          <option name="PATTERN" value="com.xinchao.cases.coupon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.shawn.api.test.coupon" />
-      <option name="MAIN_CLASS_NAME" value="com.shawn.api.test.coupon.TestCoupon" />
+      <option name="MAIN_CLASS_NAME" value="com.xinchao.cases.coupon.TestCoupon" />
       <properties />
       <listeners />
       <method v="2">
@@ -370,12 +331,12 @@
       <module name="LifeCircle" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shawn.api.test.coupon.*" />
+          <option name="PATTERN" value="com.xinchao.cases.coupon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.shawn.api.test.coupon" />
-      <option name="MAIN_CLASS_NAME" value="com.shawn.api.test.coupon.TestCoupon" />
+      <option name="MAIN_CLASS_NAME" value="com.xinchao.cases.coupon.TestCoupon" />
       <option name="METHOD_NAME" value="testPostCouponBest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -388,12 +349,12 @@
       <module name="LifeCircle" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shawn.api.test.transfer.*" />
+          <option name="PATTERN" value="com.xinchao.cases.transfer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.shawn.api.test.transfer" />
-      <option name="MAIN_CLASS_NAME" value="com.shawn.api.test.transfer.TestTransfer" />
+      <option name="MAIN_CLASS_NAME" value="com.xinchao.cases.transfer.TestTransfer" />
       <option name="METHOD_NAME" value="testGetTransferInfo" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -406,12 +367,12 @@
       <module name="LifeCircle" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shawn.api.test.transfer.*" />
+          <option name="PATTERN" value="com.xinchao.cases.transfer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.shawn.api.test.transfer" />
-      <option name="MAIN_CLASS_NAME" value="com.shawn.api.test.transfer.TestTransfer" />
+      <option name="MAIN_CLASS_NAME" value="com.xinchao.cases.transfer.TestTransfer" />
       <option name="METHOD_NAME" value="testPostTransfer" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -455,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552551860917</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Life Advertising">
+      <created>1567558261655</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567558261655</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -505,14 +473,14 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.9040512" visible="true" weight="0.39696312" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.9040512" weight="0.47180045" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.09594883" side_tool="true" visible="true" weight="0.39696312" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.09594883" side_tool="true" weight="0.39696312" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4919571" weight="0.3286119" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -535,7 +503,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/shawn/api/validation/ResponseChecker.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/xinchao/utils/ResponseChecker.java</url>
           <line>41</line>
           <properties />
           <option name="timeStamp" value="1" />
@@ -571,7 +539,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/shawn/api/test/supportCity/TestCity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinchao/cases/supportCity/TestCity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
@@ -614,13 +582,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/pro.properties" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/TestClass.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -628,7 +589,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/shawn/api/test/premise/TestPremise.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinchao/cases/premise/TestPremise.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="22" selection-start-line="22" selection-end-line="23" />
@@ -638,33 +599,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shawn/api/HttpRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2212">
-          <caret line="98" column="90" selection-start-line="98" selection-start-column="90" selection-end-line="98" selection-end-column="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#979#980#0" expanded="true" />
-            <element signature="e#1008#1009#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/shawn/api/test/coupon/TestCoupon.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinchao/cases/coupon/TestCoupon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="6" column="35" selection-end-line="98" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2828">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/shawn/api/test/transfer/TestTransfer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinchao/cases/transfer/TestTransfer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
@@ -674,7 +616,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/shawn/api/test/industryTestSuite/TestIndustry.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinchao/cases/industryTestSuite/TestIndustry.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
@@ -684,14 +626,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/shawn/api/test/media/TestMedia.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinchao/cases/media/TestMedia.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2075">
           <caret line="91" selection-start-line="91" selection-end-line="91" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/shawn/api/test/lifeCoin/TestLifeCoin.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinchao/cases/lifeCoin/TestLifeCoin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1625">
           <caret line="73" column="5" selection-start-line="55" selection-start-column="4" selection-end-line="73" selection-end-column="5" />
@@ -701,7 +643,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/shawn/api/test/login/TestLogin.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinchao/cases/login/TestLogin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="875">
           <caret line="43" column="53" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="53" />
@@ -711,34 +653,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shawn/utils/GetTokenFromYml.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/shawn/api/test/lifeDevice/TestLifeDevice.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinchao/cases/lifeDevice/TestLifeDevice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/shawn/api/validation/ResponseChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -753,13 +673,6 @@
         <state relative-caret-position="-375" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="65" lean-forward="true" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -767,10 +680,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/shawn/api/extentreport/ExtentTestNGIReporterListener.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="184" column="24" selection-start-line="184" selection-start-column="24" selection-end-line="184" selection-end-column="24" />
+        <state relative-caret-position="480">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinchao/core/HttpRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1667">
+          <caret line="98" column="90" selection-start-line="98" selection-start-column="90" selection-end-line="98" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1947">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinchao/utils/ExtentTestNGIReporterListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinchao/utils/GetTokenFromYml.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xinchao/utils/ResponseChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="106" column="24" lean-forward="true" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

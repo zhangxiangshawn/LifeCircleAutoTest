@@ -4,7 +4,7 @@
     <test name="新潮生活圈直投RESTful API test">
         <classes>
 
-            <class name="com.shawn.api.test.industryTestSuite.TestIndustry">
+            <class name="com.xinchao.cases.industryTestSuite.TestIndustry">
                 <methods>
                     <include name="testGetIndustryLevelOne"/>
                     <include name="testGetIndustryLevelTwo"/>
@@ -14,7 +14,7 @@
                 </methods>
             </class>
 
-            <class name="com.shawn.api.test.lifeCoin.TestLifeCoin">
+            <class name="com.xinchao.cases.lifeCoin.TestLifeCoin">
                 <methods>
                     <include name="testGetCoinBalance"/>
                     <include name="testGetCoinBonus"/>
@@ -29,7 +29,7 @@
 
     <listeners>
         <!--<listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>-->
-        <listener class-name="com.shawn.api.extentreport.ExtentTestNGIReporterListener"/>
+        <listener class-name="com.xinchao.utils.ExtentTestNGIReporterListener"/>
     </listeners>
 
 </suite>
